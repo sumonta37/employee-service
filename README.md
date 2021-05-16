@@ -1,0 +1,1 @@
+Project is used for testing AWS CICD pipeline
