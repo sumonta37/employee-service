@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public class EmployeeDao {
 
 	public List<Employee> getEmployee() {
-		return Stream.of(new Employee(101, "David", "WW"), new Employee(58, "Sam", "EE"),
+		return Stream.of(new Employee(101, "Rana", "WW"), new Employee(58, "Sam", "EE"),
 				new Employee(205, "Andrew", "YY"), new Employee(809, "Tom", "VV")).collect(Collectors.toList());
 	}
 }
